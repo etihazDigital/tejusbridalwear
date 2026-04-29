@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Tejus Bridal | Luxury Bridal Experience</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Poppins:wght@300;400&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+scroll-behavior:smooth;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+background:#faf7f5;
+color:#2c1a1a;
+overflow-x:hidden;
+}
+
+/* NAVBAR */
+nav{
+position:fixed;
+top:0;
+width:100%;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+background:rgba(0,0,0,0.4);
+backdrop-filter:blur(10px);
+z-index:1000;
+}
+
+nav h2{
+font-family:'Playfair Display',serif;
+color:white;
+}
+
+nav ul{
+display:flex;
+gap:20px;
+list-style:none;
+}
+
+nav ul li a{
+color:white;
+text-decoration:none;
+font-size:14px;
+}
+
+/* HERO */
+header{
+height:100vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),
+url('https://i.postimg.cc/HL5PhDXg/With-my-whole-heart-for-my-whole-life.jpg');
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+
+header h1{
+font-family:'Playfair Display',serif;
+font-size:3rem;
+margin-bottom:15px;
+}
+
+header p{
+margin-bottom:25px;
+}
+
+/* BUTTON */
+.btn{
+padding:12px 28px;
+background:#7a1f2b;
+color:white;
+border-radius:30px;
+text-decoration:none;
+transition:0.3s;
+display:inline-block;
+}
+
+.btn:hover{
+background:#5a1520;
+}
+
+/* SECTIONS */
+section{
+padding:80px 20px;
+max-width:1100px;
+margin:auto;
+}
+
+h2{
+text-align:center;
+font-family:'Playfair Display',serif;
+margin-bottom:25px;
+color:#7a1f2b;
+}
+
+/* GALLERY */
+.gallery{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:15px;
+}
+
+.gallery img{
+width:100%;
+height:320px;
+object-fit:cover;
+border-radius:12px;
+}
+
+/* TESTIMONIAL */
+.testimonial{
+background:white;
+padding:25px;
+border-radius:12px;
+margin-bottom:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.05);
+}
+
+/* CTA FIXED */
+.cta{
+text-align:center;
+padding:80px 20px;
+background:#f5efe6;
+}
+
+.cta p{
+margin-bottom:20px;
+}
+
+/* FOOTER */
+footer{
+background:#3b2b2b;
+color:white;
+text-align:center;
+padding:20px;
+}
+
+/* WHATSAPP FLOAT */
+.whatsapp{
+position:fixed;
+bottom:20px;
+right:20px;
+background:#25D366;
+padding:15px;
+border-radius:50%;
+color:white;
+text-decoration:none;
+}
+
+/* MOBILE FIX */
+@media(max-width:768px){
+
+nav ul{
+display:none;
+}
+
+header h1{
+font-size:2rem;
+}
+
+.gallery img{
+height:200px;
+}
+ .category-card img {
+    height: 180px;
+}
+}
+
+/* CATEGORY SECTION */
+.categories {
+    text-align: center;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 20px;
+}
+
+.category-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+    transition: 0.3s;
+}
+
+.category-card img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.category-card h3 {
+    margin: 10px 0 5px;
+    color: #7a1f2b;
+    font-family: 'Playfair Display', serif;
+}
+
+.category-card p {
+    font-size: 0.9rem;
+    padding: 0 10px 15px;
+}
+
+.category-card:hover {
+    transform: translateY(-5px);
+}
+
+</style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav>
+<h2>Tejus Bridal</h2>
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#gallery">Gallery</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<!-- HERO -->
+<header>
+<div>
+<h1>Designed for the Bride Who Wants to Feel Unforgettable</h1>
+<p>Every detail crafted to make your moment timeless.</p>
+<a href="https://wa.me/919970370399" class="btn">Enquire Now</a>
+</div>
+</header>
+
+<!-- ABOUT -->
+<section id="about">
+<h2>About Us</h2>
+<p style="text-align:center;">
+At Tejus Bridal, every design is more than just an outfit — it’s an emotion.  
+We create bridal looks that reflect your story, your elegance, and your once-in-a-lifetime moment.
+</p>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery">
+<h2>Bridal Stories</h2>
+<div class="gallery">
+<img src="https://i.postimg.cc/PxjFG3Q3/Standout-Cultural-Indian-Wedding.jpg">
+<img src="https://i.postimg.cc/d3WWyqPd/A-cinematic-take-on-velvet-gold-hand-worked.jpg">
+<img src="https://i.postimg.cc/05ZX3CMd/When-Danielle-married-her-best-friend-Jay.jpg">
+<img src="https://i.postimg.cc/bNJVj2kg/Miki-Jamshed-this-is-my-first-wedding-of-the.jpg">
+</div>
+</section>
+
+<!-- TESTIMONIAL -->
+<section>
+<h2>Brides Speak</h2>
+<div class="testimonial">“I felt like royalty. Everything was perfect.”</div>
+<div class="testimonial">“They understood my dream better than I did.”</div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="categories">
+<h2>Our Bridal Collections</h2>
+
+<div class="category-grid">
+
+<div class="category-card">
+<img src="https://i.postimg.cc/bJpLVGqT/Visionaries-of-L-D.jpg">
+<h3>Bridal Lehengas</h3>
+<p>Timeless designs crafted for your big day.</p>
+</div>
+
+<div class="category-card">
+<img src="https://i.postimg.cc/XvMsFHmY/lehenga.jpg">
+<h3>Reception Looks</h3>
+<p>Elegant styles for your special evening.</p>
+</div>
+
+<div class="category-card">
+<img src="https://i.postimg.cc/N0hdTJVD/Instagram.jpg">
+<h3>Engagement Wear</h3>
+<p>Graceful outfits for your pre-wedding moments.</p>
+</div>
+
+<div class="category-card">
+<img src="https://i.postimg.cc/pX6GVXBh/beautiful-Pakistani-wedding-jwellry.jpg">
+<h3>Custom Bridal</h3>
+<p>Designed uniquely for your story.</p>
+</div>
+
+</div>
+</section>
+
+<!-- CTA (FIXED OVERLAP) -->
+<section id="contact" class="cta">
+<h2>Your Dream Look Begins Here</h2>
+<p>Let’s create something unforgettable together.</p>
+<a href="https://wa.me/919970370399" class="btn">Start on WhatsApp</a>
+</section>
+
+<!-- FOOTER -->
+<footer>
+<p>© 2026 Tejus Bridal</p>
+</footer>
+
+<a href="https://wa.me/919970370399" class="whatsapp">💬</a>
+
+</body>
+</html>
